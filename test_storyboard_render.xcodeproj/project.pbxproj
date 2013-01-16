@@ -25,6 +25,10 @@
 		FCF8100816A651AB009285E4 /* 34-coffee@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF8100616A651AB009285E4 /* 34-coffee@2x.png */; };
 		FCF8100B16A651DD009285E4 /* 39-spraycan.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF8100916A651DC009285E4 /* 39-spraycan.png */; };
 		FCF8100C16A651DD009285E4 /* 39-spraycan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF8100A16A651DC009285E4 /* 39-spraycan@2x.png */; };
+		FCF8101716A656A7009285E4 /* DTSnapshotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8101616A656A7009285E4 /* DTSnapshotViewController.m */; };
+		FCF8101916A65931009285E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF8101816A65931009285E4 /* QuartzCore.framework */; };
+		FCF8101A16A65A27009285E4 /* UIView+DTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8101416A655DB009285E4 /* UIView+DTUtility.m */; };
+		FCF8101D16A65C57009285E4 /* DTModalCrossDissolve.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8101C16A65C57009285E4 /* DTModalCrossDissolve.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +57,13 @@
 		FCF8100616A651AB009285E4 /* 34-coffee@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "34-coffee@2x.png"; sourceTree = "<group>"; };
 		FCF8100916A651DC009285E4 /* 39-spraycan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "39-spraycan.png"; sourceTree = "<group>"; };
 		FCF8100A16A651DC009285E4 /* 39-spraycan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "39-spraycan@2x.png"; sourceTree = "<group>"; };
+		FCF8101316A655DB009285E4 /* UIView+DTUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DTUtility.h"; sourceTree = "<group>"; };
+		FCF8101416A655DB009285E4 /* UIView+DTUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DTUtility.m"; sourceTree = "<group>"; };
+		FCF8101516A656A7009285E4 /* DTSnapshotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSnapshotViewController.h; sourceTree = "<group>"; };
+		FCF8101616A656A7009285E4 /* DTSnapshotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSnapshotViewController.m; sourceTree = "<group>"; };
+		FCF8101816A65931009285E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FCF8101B16A65C57009285E4 /* DTModalCrossDissolve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTModalCrossDissolve.h; sourceTree = "<group>"; };
+		FCF8101C16A65C57009285E4 /* DTModalCrossDissolve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTModalCrossDissolve.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF8101916A65931009285E4 /* QuartzCore.framework in Frameworks */,
 				FCF80FDA16A64365009285E4 /* UIKit.framework in Frameworks */,
 				FCF80FDC16A64365009285E4 /* Foundation.framework in Frameworks */,
 				FCF80FDE16A64365009285E4 /* CoreGraphics.framework in Frameworks */,
@@ -72,6 +84,7 @@
 		FCF80FCA16A64365009285E4 = {
 			isa = PBXGroup;
 			children = (
+				FCF8101816A65931009285E4 /* QuartzCore.framework */,
 				FCF80FDF16A64365009285E4 /* test_storyboard_render */,
 				FCF80FD816A64365009285E4 /* Frameworks */,
 				FCF80FD616A64365009285E4 /* Products */,
@@ -100,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				FCF80FE816A64365009285E4 /* DTAppDelegate.h */,
+				FCF8101516A656A7009285E4 /* DTSnapshotViewController.h */,
+				FCF8101616A656A7009285E4 /* DTSnapshotViewController.m */,
 				FCF80FE916A64365009285E4 /* DTAppDelegate.m */,
 				FCF80FF116A64365009285E4 /* MainStoryboard_iPhone.storyboard */,
 				FCF80FF416A64365009285E4 /* MainStoryboard_iPad.storyboard */,
@@ -110,6 +125,10 @@
 				FCF8100016A64459009285E4 /* DTCallbackViewController.m */,
 				FCF8100216A6491D009285E4 /* DTModalSegue.h */,
 				FCF8100316A6491D009285E4 /* DTModalSegue.m */,
+				FCF8101316A655DB009285E4 /* UIView+DTUtility.h */,
+				FCF8101416A655DB009285E4 /* UIView+DTUtility.m */,
+				FCF8101B16A65C57009285E4 /* DTModalCrossDissolve.h */,
+				FCF8101C16A65C57009285E4 /* DTModalCrossDissolve.m */,
 				FCF8100516A651AB009285E4 /* 34-coffee.png */,
 				FCF8100616A651AB009285E4 /* 34-coffee@2x.png */,
 				FCF8100916A651DC009285E4 /* 39-spraycan.png */,
@@ -209,6 +228,9 @@
 				FCF80FF916A64365009285E4 /* DTViewController.m in Sources */,
 				FCF8100116A64459009285E4 /* DTCallbackViewController.m in Sources */,
 				FCF8100416A6491D009285E4 /* DTModalSegue.m in Sources */,
+				FCF8101716A656A7009285E4 /* DTSnapshotViewController.m in Sources */,
+				FCF8101A16A65A27009285E4 /* UIView+DTUtility.m in Sources */,
+				FCF8101D16A65C57009285E4 /* DTModalCrossDissolve.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,4 +11,6 @@
 @interface DTViewController : UIViewController
 
 @property (nonatomic, strong) IBOutlet UILabel *label;
+
+-(IBAction)showSnapshot:(id)sender;
 @end

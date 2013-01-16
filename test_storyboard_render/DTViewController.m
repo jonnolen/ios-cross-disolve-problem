@@ -8,6 +8,10 @@
 
 #import "DTViewController.h"
 #import "DTCallbackViewController.h"
+#import "DTSnapshotViewController.h"
+#import "UIView+DTUtility.h"
+
+
 @interface DTViewController (){
     BOOL hasShownSegue;
 }
@@ -27,7 +31,13 @@
 
     NSLog(@"View Bounds: %@", NSStringFromCGRect(self.view.bounds));
     
-    [self.view addSubview:view];
+    
+    
+    
+    UIView *button = [self.view viewWithTag:100];
+    
+    [self.view insertSubview:view belowSubview:button];
+    
     self.label.text = @"Hello!";
 }
 
@@ -54,6 +64,15 @@
             
         }];
     };
+
+}
+
+-(IBAction)showSnapshot:(id)sender{
+    DTSnapshotViewController * vc = [self.storyboard instantiateViewControllerWithIdentifier:@"snaphsot.vc"];
+    
+    vc.completionCallback = ^{[self dismissViewControllerAnimated:YES completion:nil];};
+    vc.snapshot = [self.view viewSnapshot];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
