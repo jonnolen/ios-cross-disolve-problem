@@ -1,5 +1,5 @@
 //
-//  DTViewController.h
+//  DTModalSegue.h
 //  test_storyboard_render
 //
 //  Created by Jonathan Nolen on 1/15/13.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DTViewController : UIViewController
+@interface DTModalSegue : UIStoryboardSegue
 
-@property (nonatomic, strong) IBOutlet UILabel *label;
 @end

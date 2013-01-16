@@ -19,6 +19,8 @@
 		FCF80FF316A64365009285E4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF80FF116A64365009285E4 /* MainStoryboard_iPhone.storyboard */; };
 		FCF80FF616A64365009285E4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF80FF416A64365009285E4 /* MainStoryboard_iPad.storyboard */; };
 		FCF80FF916A64365009285E4 /* DTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF80FF816A64365009285E4 /* DTViewController.m */; };
+		FCF8100116A64459009285E4 /* DTCallbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8100016A64459009285E4 /* DTCallbackViewController.m */; };
+		FCF8100416A6491D009285E4 /* DTModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8100316A6491D009285E4 /* DTModalSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		FCF80FF516A64365009285E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		FCF80FF716A64365009285E4 /* DTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTViewController.h; sourceTree = "<group>"; };
 		FCF80FF816A64365009285E4 /* DTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTViewController.m; sourceTree = "<group>"; };
+		FCF80FFF16A64459009285E4 /* DTCallbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCallbackViewController.h; sourceTree = "<group>"; };
+		FCF8100016A64459009285E4 /* DTCallbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCallbackViewController.m; sourceTree = "<group>"; };
+		FCF8100216A6491D009285E4 /* DTModalSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTModalSegue.h; sourceTree = "<group>"; };
+		FCF8100316A6491D009285E4 /* DTModalSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTModalSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,10 @@
 				FCF80FF716A64365009285E4 /* DTViewController.h */,
 				FCF80FF816A64365009285E4 /* DTViewController.m */,
 				FCF80FE016A64365009285E4 /* Supporting Files */,
+				FCF80FFF16A64459009285E4 /* DTCallbackViewController.h */,
+				FCF8100016A64459009285E4 /* DTCallbackViewController.m */,
+				FCF8100216A6491D009285E4 /* DTModalSegue.h */,
+				FCF8100316A6491D009285E4 /* DTModalSegue.m */,
 			);
 			path = test_storyboard_render;
 			sourceTree = "<group>";
@@ -181,6 +191,8 @@
 				FCF80FE616A64365009285E4 /* main.m in Sources */,
 				FCF80FEA16A64365009285E4 /* DTAppDelegate.m in Sources */,
 				FCF80FF916A64365009285E4 /* DTViewController.m in Sources */,
+				FCF8100116A64459009285E4 /* DTCallbackViewController.m in Sources */,
+				FCF8100416A6491D009285E4 /* DTModalSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
