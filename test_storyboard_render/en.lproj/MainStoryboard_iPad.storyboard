@@ -30,13 +30,48 @@
                                     <constraint firstItem="Uq4-86-ZNy" firstAttribute="leading" secondItem="1qU-bT-G5h" secondAttribute="leading" constant="58" id="Syd-sc-S0y"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKl-Qb-icR">
+                                <color key="backgroundColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="202" id="DNE-nX-OEx"/>
+                                    <constraint firstAttribute="height" constant="100" id="HhP-Vb-VX2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="34-coffee">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzh-8S-yOi">
+                                <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="167" id="EFW-De-AZe"/>
+                                    <constraint firstAttribute="width" constant="278" id="WH0-ua-UQM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="39-spraycan">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.65490198135375977" green="0.729411780834198" blue="0.17254902422428131" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
+                            <constraint firstItem="DKl-Qb-icR" firstAttribute="top" secondItem="5" secondAttribute="top" constant="421" id="5jb-WJ-4M4"/>
                             <constraint firstAttribute="bottom" secondItem="1qU-bT-G5h" secondAttribute="bottom" constant="661" id="A0u-4q-SYS"/>
+                            <constraint firstItem="nzh-8S-yOi" firstAttribute="baseline" secondItem="DKl-Qb-icR" secondAttribute="baseline" type="default" id="IBN-PD-37O"/>
+                            <constraint firstItem="nzh-8S-yOi" firstAttribute="top" secondItem="5" secondAttribute="top" constant="449" id="bV1-vG-wU9"/>
+                            <constraint firstItem="nzh-8S-yOi" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="372" id="cZ1-vu-GTS"/>
                             <constraint firstItem="1qU-bT-G5h" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="m2A-qQ-j3C"/>
                             <constraint firstItem="1qU-bT-G5h" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="qa2-x5-n0I"/>
                             <constraint firstItem="1qU-bT-G5h" firstAttribute="top" secondItem="5" secondAttribute="top" constant="20" symbolic="YES" type="default" id="tEQ-EQ-bPK"/>
+                            <constraint firstItem="DKl-Qb-icR" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="69" id="zqb-h9-8zQ"/>
                         </constraints>
                     </view>
                     <connections>
@@ -136,6 +171,10 @@
             <point key="canvasLocation" x="-1130" y="611"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="34-coffee" width="16" height="16"/>
+        <image name="39-spraycan" width="16" height="16"/>
+    </resources>
     <classes>
         <class className="DTCallbackViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DTCallbackViewController.h"/>

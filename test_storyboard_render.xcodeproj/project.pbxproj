@@ -21,6 +21,10 @@
 		FCF80FF916A64365009285E4 /* DTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF80FF816A64365009285E4 /* DTViewController.m */; };
 		FCF8100116A64459009285E4 /* DTCallbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8100016A64459009285E4 /* DTCallbackViewController.m */; };
 		FCF8100416A6491D009285E4 /* DTModalSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF8100316A6491D009285E4 /* DTModalSegue.m */; };
+		FCF8100716A651AB009285E4 /* 34-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF8100516A651AB009285E4 /* 34-coffee.png */; };
+		FCF8100816A651AB009285E4 /* 34-coffee@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF8100616A651AB009285E4 /* 34-coffee@2x.png */; };
+		FCF8100B16A651DD009285E4 /* 39-spraycan.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF8100916A651DC009285E4 /* 39-spraycan.png */; };
+		FCF8100C16A651DD009285E4 /* 39-spraycan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF8100A16A651DC009285E4 /* 39-spraycan@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +49,10 @@
 		FCF8100016A64459009285E4 /* DTCallbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCallbackViewController.m; sourceTree = "<group>"; };
 		FCF8100216A6491D009285E4 /* DTModalSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTModalSegue.h; sourceTree = "<group>"; };
 		FCF8100316A6491D009285E4 /* DTModalSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTModalSegue.m; sourceTree = "<group>"; };
+		FCF8100516A651AB009285E4 /* 34-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "34-coffee.png"; sourceTree = "<group>"; };
+		FCF8100616A651AB009285E4 /* 34-coffee@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "34-coffee@2x.png"; sourceTree = "<group>"; };
+		FCF8100916A651DC009285E4 /* 39-spraycan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "39-spraycan.png"; sourceTree = "<group>"; };
+		FCF8100A16A651DC009285E4 /* 39-spraycan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "39-spraycan@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				FCF8100016A64459009285E4 /* DTCallbackViewController.m */,
 				FCF8100216A6491D009285E4 /* DTModalSegue.h */,
 				FCF8100316A6491D009285E4 /* DTModalSegue.m */,
+				FCF8100516A651AB009285E4 /* 34-coffee.png */,
+				FCF8100616A651AB009285E4 /* 34-coffee@2x.png */,
+				FCF8100916A651DC009285E4 /* 39-spraycan.png */,
+				FCF8100A16A651DC009285E4 /* 39-spraycan@2x.png */,
 			);
 			path = test_storyboard_render;
 			sourceTree = "<group>";
@@ -178,6 +190,10 @@
 				FCF80FF016A64365009285E4 /* Default-568h@2x.png in Resources */,
 				FCF80FF316A64365009285E4 /* MainStoryboard_iPhone.storyboard in Resources */,
 				FCF80FF616A64365009285E4 /* MainStoryboard_iPad.storyboard in Resources */,
+				FCF8100716A651AB009285E4 /* 34-coffee.png in Resources */,
+				FCF8100816A651AB009285E4 /* 34-coffee@2x.png in Resources */,
+				FCF8100B16A651DD009285E4 /* 39-spraycan.png in Resources */,
+				FCF8100C16A651DD009285E4 /* 39-spraycan@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
