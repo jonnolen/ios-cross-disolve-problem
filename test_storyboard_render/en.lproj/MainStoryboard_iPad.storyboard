@@ -41,12 +41,12 @@
                     </view>
                     <connections>
                         <outlet property="label" destination="Uq4-86-ZNy" id="rFI-dc-zyu"/>
-                        <segue destination="NVB-Ct-DNm" kind="custom" identifier="modal.1.segue" customClass="DTModalSegue" id="h3g-e5-0o3"/>
+                        <segue destination="NVB-Ct-DNm" kind="modal" identifier="modal.1.segue" customClass="DTModalSegue" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="h3g-e5-0o3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-643" y="-76"/>
+            <point key="canvasLocation" x="-1791" y="-583"/>
         </scene>
         <!--Callback View Controller-->
         <scene sceneID="dLF-1R-dBb">
@@ -90,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WsB-f9-6Gd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="463" y="-506"/>
+            <point key="canvasLocation" x="-641" y="-594"/>
         </scene>
         <!--Callback View Controller-->
         <scene sceneID="44L-pQ-jyi">
@@ -133,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfI-g6-fBZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="474" y="739"/>
+            <point key="canvasLocation" x="-1130" y="611"/>
         </scene>
     </scenes>
     <classes>

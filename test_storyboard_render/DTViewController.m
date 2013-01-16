@@ -19,19 +19,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     
     UIView * view = [UIView new];
     
     view.frame = self.view.bounds;
     view.backgroundColor = [UIColor colorWithWhite:.95 alpha:.7];
-//    view.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+
     NSLog(@"View Bounds: %@", NSStringFromCGRect(self.view.bounds));
     
     [self.view addSubview:view];
-//    self.view.backgroundColor = [UIColor orangeColor];
-    
-    
     self.label.text = @"Hello!";
 }
 
