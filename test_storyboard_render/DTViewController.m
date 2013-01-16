@@ -24,21 +24,11 @@
 {
     [super viewDidLoad];
     
-    UIView * view = [UIView new];
     
-    view.frame = self.view.bounds;
-    view.backgroundColor = [UIColor colorWithWhite:.95 alpha:.7];
-
     NSLog(@"View Bounds: %@", NSStringFromCGRect(self.view.bounds));
-    
-    
-    
-    
-    UIView *button = [self.view viewWithTag:100];
-    
-    [self.view insertSubview:view belowSubview:button];
-    
     self.label.text = @"Hello!";
+    self.mask.hidden = NO;
+    self.content.hidden = YES;
 }
 
 -(void)viewDidAppear:(BOOL)animated{

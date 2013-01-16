@@ -11,6 +11,9 @@
 @interface DTViewController : UIViewController
 
 @property (nonatomic, strong) IBOutlet UILabel *label;
+@property (nonatomic, strong) IBOutlet UIView *content;
+@property (nonatomic, strong) IBOutlet UIView *mask;
+
 
 -(IBAction)showSnapshot:(id)sender;
 @end
